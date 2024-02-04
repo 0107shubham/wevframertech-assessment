@@ -10,7 +10,7 @@ const ArticleData = [
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706796679/auth2_owyahp.png",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707032669/articleAuthor_r0v9h9.jpg",
     topic: "7 Rules of Effective Branding",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
@@ -23,7 +23,7 @@ const ArticleData = [
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707032669/articleAuthor_r0v9h9.jpg",
     topic: "7 Rules of Effective Branding",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
@@ -36,7 +36,7 @@ const ArticleData = [
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707032669/articleAuthor_r0v9h9.jpg",
     topic: "7 Rules of Effective Branding",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
@@ -50,7 +50,7 @@ const ArticleData = [
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707032669/articleAuthor_r0v9h9.jpg",
     topic: "7 Rules of Effective Branding",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
@@ -63,7 +63,7 @@ const ArticleData = [
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707032669/articleAuthor_r0v9h9.jpg",
     topic: "7 Rules of Effective Branding",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],

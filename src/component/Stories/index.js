@@ -10,7 +10,7 @@ const ArticleData = [
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707032669/articleAuthor_r0v9h9.jpg",
     topic: "How 7 lines code turned into $36 Billion Empire",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
@@ -28,7 +28,7 @@ const ArticleData = [
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707032669/articleAuthor_r0v9h9.jpg",
     topic: "Chez pierre restaurant in Monte Carlo by Vuidafieri",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
@@ -41,7 +41,7 @@ const ArticleData = [
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707032669/articleAuthor_r0v9h9.jpg",
     topic: "Teknion wins Gold at 2022 International Design Awards",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
@@ -55,7 +55,7 @@ const ArticleData = [
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707032669/articleAuthor_r0v9h9.jpg",
     topic: "How 7 lines code turned into $36 Billion Empire",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
@@ -68,7 +68,7 @@ const ArticleData = [
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707032669/articleAuthor_r0v9h9.jpg",
     topic: "Chez pierre restaurant in Monte Carlo by Vuidafieri",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
