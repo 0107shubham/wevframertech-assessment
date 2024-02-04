@@ -1,0 +1,38 @@
+.Article-bg-container {
+  height: 37.813rem;
+  max-width: 101.438rem;
+}
+
+.article-elemnt {
+  max-width: 101.438rem;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.heading {
+  color: var(--Dark, #212121);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Urbanist;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.25rem; /* 36px */
+}
+
+.see-all {
+  color: var(--Primary, #9058ff);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Urbanist;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.875rem; /* 30px */
+}
+
+.text-heading-seeall {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.25rem;
+}

@@ -1,0 +1,36 @@
+.admin-elemnt-container {
+  min-width: 21.8125rem;
+  width: 21.863875rem;
+  height: 9.12575rem;
+  border-radius: 1.25rem;
+  background: hsla(0, 0%, 100%, 1);
+  margin: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-img-logo {
+  height: 4.848125rem;
+  width: 4.848125rem;
+  margin-right: 0.625rem;
+}
+
+.admin-number {
+  font-family: Urbanist;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: 0;
+  text-align: left;
+  color: hsla(0, 0%, 13%, 1);
+}
+
+.admin-title {
+  font-family: Urbanist;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 2.625rem;
+  color: hsla(0, 0%, 13%, 1);
+}

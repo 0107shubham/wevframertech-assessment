@@ -1,0 +1,38 @@
+.Article-bg-container {
+  max-height: 37.8125rem;
+  max-width: 101.4375rem;
+}
+
+.article-elemnt {
+  max-width: 101.4375rem;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.heading {
+  color: var(--Dark, #212121);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Urbanist;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.see-all {
+  color: var(--Primary, #9058ff);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Urbanist;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.text-heading-seeall {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.25rem;
+}

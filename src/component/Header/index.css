@@ -1,0 +1,362 @@
+.header-bg-conatiner {
+  max-width: 102.375rem;
+  height: 5.75rem;
+  min-width: 84.6%;
+  flex-shrink: 0;
+  background: hsla(0, 0%, 100%, 1);
+
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search-input {
+  outline: none;
+  border: none;
+  width: 90%;
+  background: hsla(240, 20%, 99%, 1);
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 24.75rem;
+  height: 3.1875rem;
+  border-radius: 1.25rem;
+  background: hsla(240, 20%, 99%, 1);
+}
+
+.search-icon {
+  height: 24px;
+  width: 24px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-image: url("https://res.cloudinary.com/drvjsegeb/image/upload/v1706879435/calender_mmqwvu.png");
+  background-color: hsla(0, 0%, 98%, 1);
+  color: linear-gradient(0deg, #a0a3bd, #a0a3bd);
+  border: none;
+  outline: none;
+  padding: 0.3125rem;
+  cursor: pointer;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  opacity: 0;
+  margin: 0;
+}
+
+.header-date-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 21.625rem;
+  height: 3.375rem;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  border: 0.0625rem solid;
+  background-color: hsla(0, 0%, 98%, 1);
+}
+
+.date-con-para {
+  font-family: Urbanist;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.1875rem;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: hsla(0, 0%, 98%, 1);
+  margin: 0.625rem;
+}
+
+.user-con-header {
+  width: 100%;
+  max-width: 18.5625rem;
+  border-radius: 1.25rem;
+  height: 3.3125rem;
+  padding: 0.625rem 0.5rem;
+  border: 0.0625rem solid;
+  border-color: hsla(234, 25%, 29%, 1);
+  gap: 0.625rem;
+  background-color: hsla(240, 20%, 99%, 1);
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.25rem;
+}
+
+.user-img {
+  max-width: 2.075rem;
+  max-height: 2.075rem;
+  border-radius: 0.3125rem;
+}
+
+.welcome-text {
+  font-family: Urbanist;
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 0.75rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: hsla(234, 25%, 29%, 1);
+}
+
+.user-name {
+  font-family: Urbanist;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: hsla(234, 25%, 29%, 1);
+}
+
+.header-date-user-con {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-chevron {
+  color: hsla(233, 59%, 29%, 1);
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: 1.25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header-bg-conatiner {
+    width: 100%;
+
+    height: 5.75rem;
+    min-width: 84.6%;
+    flex-shrink: 0;
+    background-color: ;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .header-date-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15.625rem;
+    height: 3rem;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    border: 0.0625rem solid;
+    background-color: hsla(0, 0%, 98%, 1);
+  }
+
+  html {
+    font-size: 55%;
+  }
+  .user-con-header {
+    display: none;
+  }
+
+  .search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 10.75rem;
+    height: 3rem;
+    border-radius: 8px;
+    background: hsla(240, 20%, 99%, 1);
+    margin-left: 20px;
+  }
+}
+
+.header-inner-container-small-screen {
+  display: none;
+}
+
+.contact-support-icon {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+  margin: auto;
+}
+
+.contact-support-text {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.063rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0.625rem;
+}
+
+@media screen and (max-width: 48rem) {
+  html {
+    font-size: 75%;
+  }
+
+  .NavbarElement-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+
+    max-width: 80%;
+    max-width: 18.5625rem;
+    border-radius: 1.25rem;
+    height: 3.3125rem;
+    padding: 0.625rem 0.5rem;
+    border: 0.0625rem solid;
+    border-color: hsla(234, 25%, 29%, 1);
+    gap: 0.625rem;
+    background-color: hsla(240, 20%, 99%, 1);
+  }
+
+  .NavbarElement-container:active,
+  .NavbarElement-container:hover {
+    background: hsla(255, 86%, 63%, 1);
+  }
+
+  .user-con-header-mbl {
+    max-width: 80%;
+    max-width: 18.5625rem;
+    border-radius: 1.25rem;
+    height: 3.3125rem;
+    padding: 0.625rem 0.5rem;
+    border: 0.0625rem solid;
+    border-color: hsla(234, 25%, 29%, 1);
+    gap: 0.825rem;
+    background-color: hsla(240, 20%, 99%, 1);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .NavbarElement-main-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: hsla(0, 0%, 100%, 1);
+    max-width: 350px;
+    min-width: 300px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+  }
+
+  .header-inner-container-small-screen {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    height: 50px;
+    width: 30px;
+  }
+
+  .closedNavbar-cont {
+    height: 30px;
+  }
+
+  .HamburgerMenu {
+    margin-top: 20px;
+    font-size: 1.875rem;
+  }
+
+  .closedNavbar {
+    width: 18%;
+
+    padding-left: 20px;
+  }
+
+  .openNavBar {
+    width: 10%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+    z-index: 9999;
+    height: 5.63rem;
+  }
+
+  .img-navbar {
+    height: 1.875rem;
+    margin-bottom: 20px;
+  }
+
+  .contact-support-cont-mb {
+    display: flex;
+    flex-direction: row;
+
+    background: hsla(237, 100%, 95%, 1);
+
+    max-width: 80%;
+    max-width: 18.5625rem;
+    border-radius: 1.25rem;
+    height: 3.3125rem;
+    padding: 0.625rem 0.5rem;
+    border: 0.0625rem solid;
+    border-color: hsla(234, 25%, 29%, 1);
+  }
+
+  .contact-support-cont {
+    position: relative;
+    left: 3%;
+    padding: 0px;
+    border-radius: 0.625rem;
+
+    background: hsla(237, 100%, 95%, 1);
+  }
+
+  .count-notification {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: hsla(255, 86%, 63%, 1);
+    width: 24px;
+    height: 24px;
+    padding-top: 4px;
+
+    border-radius: 500px;
+    background: hsla(237, 100%, 95%, 1);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  html {
+    font-size: 70%;
+  }
+
+  .search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 19.75rem;
+    height: 3.1875rem;
+    border-radius: 1.25rem;
+    background: hsla(240, 20%, 99%, 1);
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 80%;
+  }
+}

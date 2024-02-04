@@ -1,0 +1,60 @@
+.sidebar-bg-container {
+  z-index: 9999;
+  background-color: blue;
+}
+
+.sidebar-inner-container-small-screen {
+  display: none;
+}
+
+.sidebar-inner-container-big-screen {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 15.4%;
+  align-items: flex-start;
+  position: fixed;
+  padding-top: 5rem;
+}
+
+.contact-support-cont {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 3%;
+  padding: 0.688rem 1rem 0.688rem 1rem;
+  border-radius: 0.625rem;
+  margin-top: 30%;
+  background: hsla(237, 100%, 95%, 1);
+}
+
+.contact-support-icon {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+  margin: auto;
+}
+
+.contact-support-text {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.063rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0.625rem;
+}
+
+@media screen and (max-width: 48rem) {
+  html {
+    font-size: 75%;
+  }
+
+  .sidebar-inner-container-big-screen {
+    margin-top: 8rem;
+    display: none;
+    width: 0%;
+  }
+}

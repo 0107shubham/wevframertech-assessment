@@ -1,0 +1,18 @@
+.Advertisnment-bg-container {
+  height: 19.9375rem;
+  max-width: 101.4375rem;
+}
+
+.text-heading-seeall {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+
+.advertisnment-item-container {
+  max-width: 101.4375rem;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}

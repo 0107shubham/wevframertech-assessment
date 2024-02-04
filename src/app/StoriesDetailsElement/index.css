@@ -1,0 +1,268 @@
+html {
+  font-size: 16px;
+}
+
+.stordetails-bg-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-slider-cont {
+  width: 100%;
+  background-size: cover;
+}
+
+.image-slider-cont-inner {
+  background: hsla(0, 0%, 0%, 0.6);
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-image {
+  width: 35.0625rem;
+  height: 37.5rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.image-slider-btn {
+  font-size: 3.125rem;
+  background: hsla(0, 0%, 13%, 1);
+  color: aliceblue;
+  width: 3.75rem;
+  height: 3.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0.625rem;
+  border-radius: 0.625rem;
+}
+
+.stordetails-author-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+}
+
+.stordetails-author-name {
+  font-family: Urbanist;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.625rem;
+  letter-spacing: 0;
+  text-align: left;
+  color: hsla(234, 18%, 68%, 1);
+}
+
+.stordetails-date {
+  font-family: Urbanist;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  letter-spacing: 0;
+  text-align: left;
+  color: hsla(213, 100%, 67%, 1);
+}
+
+.stordetails-author-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.stordetails-access-cont {
+  max-width: 10.8125rem;
+  height: 3.125rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.625rem 0.9375rem;
+  border-radius: 1.25rem;
+  gap: 0.625rem;
+  background: hsla(0, 0%, 98%, 1);
+}
+
+.stordetails-access-dot-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.stordetails-author-accees-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stordetails-topic-button {
+  color: hsla(260, 100%, 67%, 1);
+  font-family: Urbanist;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0;
+  text-align: left;
+  width: 10.625rem;
+  height: 3.6875rem;
+  padding: 0.9375rem 1.25rem;
+  gap: 0.625rem;
+}
+
+.stordetails-text-over-img-con {
+}
+
+.stordetails-topic-para {
+  font-family: Urbanist;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+  letter-spacing: 0;
+  text-align: left;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .stordetails-bg-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image-slider-cont {
+    min-width: 100wh;
+    background-size: cover;
+    min-height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-slider-cont-inner {
+    background: hsla(0, 0%, 0%, 0.6);
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider-image {
+    max-width: 42%;
+    min-height: 40vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .image-slider-btn {
+    font-size: 1.125rem;
+    background: hsla(0, 0%, 13%, 1);
+    color: aliceblue;
+    width: 1.75rem;
+    height: 1.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem;
+    border-radius: 0.625rem;
+  }
+
+  .stordetails-author-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.25rem;
+  }
+
+  .stordetails-author-name {
+    font-family: Urbanist;
+    font-size: 1.175rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+    letter-spacing: 0;
+    text-align: left;
+    color: hsla(234, 18%, 68%, 1);
+  }
+
+  .stordetails-date {
+    font-family: Urbanist;
+    font-size: 1.075rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    letter-spacing: 0;
+    text-align: left;
+    color: hsla(213, 100%, 67%, 1);
+  }
+
+  .stordetails-author-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.625rem;
+  }
+
+  .stordetails-access-cont {
+    max-width: 10.8125rem;
+    height: 2.125rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.625rem 0.9375rem;
+    border-radius: 1.25rem;
+    gap: 0.625rem;
+    background: hsla(0, 0%, 98%, 1);
+  }
+
+  .stordetails-access-dot-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .stordetails-author-accees-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .stordetails-topic-button {
+    color: hsla(260, 100%, 67%, 1);
+    font-family: Urbanist;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+    text-align: left;
+    width: 10.625rem;
+    height: 3.6875rem;
+    padding: 0.9375rem 1.25rem;
+    gap: 0.625rem;
+  }
+
+  .stordetails-text-over-img-con {
+  }
+
+  .stordetails-topic-para {
+    font-family: Urbanist;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    letter-spacing: 0;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 1);
+  }
+}
