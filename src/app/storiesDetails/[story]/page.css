@@ -30,8 +30,8 @@
 }
 
 .back-button-icon {
-  width: 24.86px;
-  height: 13.61px;
+  max-width: 24.86px;
+  max-height: 13.61px;
   color: hsla(0, 0%, 13%, 1);
 }
 

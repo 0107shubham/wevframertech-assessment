@@ -9,7 +9,6 @@ html {
 }
 
 .image-slider-cont {
-  width: 100%;
   background-size: cover;
 
   z-index: -1;
@@ -25,8 +24,11 @@ html {
 }
 
 .slider-image {
-  width: 35.0625rem;
+  /* width: 35.0625rem; */
+  max-width: 33%;
+  min-width: 33%;
   height: 37.5rem;
+  min-height: 98%;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -138,6 +140,9 @@ html {
 }
 
 @media screen and (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
   .stordetails-bg-cont {
     display: flex;
     flex-direction: column;
@@ -145,9 +150,9 @@ html {
   }
 
   .image-slider-cont {
-    min-width: 100wh;
+    min-width: 100%;
     background-size: cover;
-    min-height: 42vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,15 +166,16 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    min-width: 100%;
   }
 
   .slider-image {
-    max-width: 42%;
-    min-height: 40vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    max-width: 33%;
+    min-width: 33%;
   }
 
   .image-slider-btn {
@@ -271,5 +277,17 @@ html {
     letter-spacing: 0;
     text-align: left;
     color: hsla(0, 0%, 100%, 1);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 75%;
   }
 }
