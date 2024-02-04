@@ -43,7 +43,11 @@ const StoriesDetailsElement = (props) => {
     <div className="stordetails-bg-cont">
       <div className="stordetails-author-accees-cont">
         <div className="stordetails-author-cont">
-          <img className="stordetails-author-img" src={author_image} />
+          <img
+            className="stordetails-author-img"
+            src={author_image}
+            alt="image"
+          />
           <p className="stordetails-author-name">{author_name}</p>
           <p className="stordetails-date">created on {date}</p>
         </div>

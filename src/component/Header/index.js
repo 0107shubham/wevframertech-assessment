@@ -85,7 +85,7 @@ const Header = () => {
         <img
           className="NavbarElement-container-icon"
           src={image_url}
-          alt={image_url}
+          alt="image"
         />
         <p className="text-lime-800">{name}</p>
         {count > 0 ? <p className="count-notification">{count}</p> : ""}
@@ -108,6 +108,7 @@ const Header = () => {
               <img
                 className="user-img"
                 src="https://res.cloudinary.com/drvjsegeb/image/upload/v1706881525/userimage_ihvbh7.png"
+                alt="image"
               />
             </div>
             <div>
@@ -158,6 +159,7 @@ const Header = () => {
             <img
               className="user-img"
               src="https://res.cloudinary.com/drvjsegeb/image/upload/v1706881525/userimage_ihvbh7.png"
+              alt="image"
             />
           </div>
           <div>

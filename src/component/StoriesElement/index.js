@@ -30,6 +30,7 @@ const StoriesElement = (props) => {
             <img
               className="statusup-icon"
               src="https://res.cloudinary.com/drvjsegeb/image/upload/v1706803013/wifi2_l6ier0.png"
+              alt="image"
             />
           </div>
         </div>

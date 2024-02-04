@@ -125,6 +125,7 @@ const storiesDetails = (params) => {
             <img
               className="user-img-storiesDetails"
               src="https://res.cloudinary.com/drvjsegeb/image/upload/v1706881525/userimage_ihvbh7.png"
+              alt="image"
             />
           </div>
           <div>

@@ -6,7 +6,7 @@ const AdminElement = (props) => {
   const { img_url, title, number } = data;
   return (
     <div className="admin-elemnt-container">
-      <img className="admin-img-logo" src={img_url} />
+      <img className="admin-img-logo" src={img_url} alt="image" />
       <div>
         <p className="admin-title">{title}</p>
         <p className="admin-number">{number}</p>
