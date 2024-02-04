@@ -33,6 +33,7 @@ const StoriesDetailsElement = (props) => {
   };
 
   const handleNext = () => {
+    console.log("Next Clicked");
     setCurrentImageIndex((prevIndex) =>
       prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );

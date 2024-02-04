@@ -24,55 +24,55 @@ const ArticleData = [
   {
     id: 2,
     topic_img_url:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722987/article1_ciaqob.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707025669/str2_gimsb5.jpg",
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
       "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
-    topic: "7 Rules of Effective Branding",
+    topic: "Chez pierre restaurant in Monte Carlo by Vuidafieri",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
-    date: "22 january 2022", // Add the date property with the current date
+    date: "22 january 2022",
   },
   {
     id: 3,
     topic_img_url:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722987/article1_ciaqob.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707025674/str3_jcfd6g.jpg",
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
       "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
-    topic: "7 Rules of Effective Branding",
+    topic: "Teknion wins Gold at 2022 International Design Awards",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
-    date: "22 january 2022", // Add the date property with the current date
+    date: "22 january 2022",
   },
 
   {
     id: 4,
     topic_img_url:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722987/article1_ciaqob.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707025683/str4_zzpr5x.jpg",
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
       "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
-    topic: "7 Rules of Effective Branding",
+    topic: "How 7 lines code turned into $36 Billion Empire",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
-    date: "22 january 2022", // Add the date property with the current date
+    date: "22 january 2022",
   },
   {
     id: 5,
     topic_img_url:
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722987/article1_ciaqob.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1707025690/str5_qokj6i.jpg",
     type: "BUSINESS",
     author_name: "Maria Doe",
     author_image:
       "https://res.cloudinary.com/drvjsegeb/image/upload/v1706722993/articleAuthor_xllckf.jpg",
-    topic: "7 Rules of Effective Branding",
+    topic: "Chez pierre restaurant in Monte Carlo by Vuidafieri",
     about: "Why Branding matters for your Business",
     target: ["branding", "Communication", "Branding"],
-    date: "22 january 2022", // Add the date property with the current date
+    date: "22 january 2022",
   },
 ];
 

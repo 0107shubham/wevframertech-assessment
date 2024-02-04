@@ -25,7 +25,7 @@ const ArticleData = [
     images: [
       "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
       "https://res.cloudinary.com/drvjsegeb/image/upload/v1706796679/auth2_owyahp.png",
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1705925084/pexels-mister-mister-3434523_otr9xc.jpg",
     ],
   },
   {
@@ -42,8 +42,8 @@ const ArticleData = [
     date: "23 January 2022",
     images: [
       "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706796679/auth2_owyahp.png",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1705925084/pexels-mister-mister-3434523_otr9xc.jpg",
     ],
   },
 
@@ -61,8 +61,8 @@ const ArticleData = [
     date: "24 January 2022",
     images: [
       "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706796679/auth2_owyahp.png",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1705925084/pexels-mister-mister-3434523_otr9xc.jpg",
     ],
   },
   {
@@ -79,8 +79,8 @@ const ArticleData = [
     date: "25 January 2022",
     images: [
       "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706796679/auth2_owyahp.png",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1705925084/pexels-mister-mister-3434523_otr9xc.jpg",
     ],
   },
   {
@@ -97,8 +97,8 @@ const ArticleData = [
     date: "26 January 2022",
     images: [
       "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
-      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706797508/empire_hjhcv8.jpg",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1706796679/auth2_owyahp.png",
+      "https://res.cloudinary.com/drvjsegeb/image/upload/v1705925084/pexels-mister-mister-3434523_otr9xc.jpg",
     ],
   },
 ];

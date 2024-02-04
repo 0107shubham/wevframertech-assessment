@@ -10,8 +10,6 @@ html {
 
 .image-slider-cont {
   background-size: cover;
-
-  z-index: -1;
 }
 
 .image-slider-cont-inner {
@@ -32,7 +30,7 @@ html {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .image-slider-btn {
@@ -173,7 +171,7 @@ html {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     max-width: 33%;
     min-width: 33%;
   }
